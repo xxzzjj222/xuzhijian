@@ -1,0 +1,14 @@
+F:\xzj\vs\test1\test\obj\Debug\Web.csprojResolveAssemblyReference.cache
+F:\xzj\vs\test1\test\bin\Web.dll
+F:\xzj\vs\test1\test\bin\Web.pdb
+F:\xzj\vs\test1\test\bin\Newtonsoft.Json.dll
+F:\xzj\vs\test1\test\bin\NVelocity.dll
+F:\xzj\vs\test1\test\bin\SqlSugar.dll
+F:\xzj\vs\test1\test\bin\Oracle.ManagedDataAccess.dll
+F:\xzj\vs\test1\test\bin\System.Data.SQLite.dll
+F:\xzj\vs\test1\test\bin\MySql.Data.dll
+F:\xzj\vs\test1\test\bin\SqlSugar.pdb
+F:\xzj\vs\test1\test\bin\Newtonsoft.Json.pdb
+F:\xzj\vs\test1\test\bin\Newtonsoft.Json.xml
+F:\xzj\vs\test1\test\obj\Debug\Web.dll
+F:\xzj\vs\test1\test\obj\Debug\Web.pdb

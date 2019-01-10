@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49B066C1-370F-411D-89E0-56010E98D2AC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web</RootNamespace>
+    <AssemblyName>Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\BaiduNetdiskDownload\NETJson\NETJson\Net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NVelocity">
+      <HintPath>..\..\..\..\BaiduNetdiskDownload\YXWeb\YXWeb\Web\Web\_References\NVelocity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Blue\CSS\common.css" />
+    <Content Include="Blue\CSS\init.css" />
+    <Content Include="Blue\CSS\login.css" />
+    <Content Include="Blue\CSS\navigate.css" />
+    <Content Include="Blue\CSS\template.css" />
+    <Content Include="Blue\Images\11.jpg" />
+    <Content Include="Blue\Images\22.jpg" />
+    <Content Include="Blue\Images\loginbg.jpg" />
+    <Content Include="Blue\jquery-3.3.1\jquery-3.3.1.js" />
+    <Content Include="Blue\jquery-3.3.1\jquery-3.3.1.min.js" />
+    <Content Include="Blue\JS\common.js" />
+    <Content Include="Blue\JS\echarts.min.js" />
+    <Content Include="Blue\JS\login.js" />
+    <Content Include="Blue\JS\main.js" />
+    <Content Include="Blue\JS\Navigate.js" />
+    <Content Include="Blue\JS\Role.js" />
+    <Content Include="Blue\JS\RoleNavigateAdd.js" />
+    <Content Include="Blue\JS\RoleNavigateEdit.js" />
+    <Content Include="Blue\JS\RoleNavigateManage.js" />
+    <Content Include="Blue\JS\template.js" />
+    <Content Include="Blue\JS\UserInfoAdd.js" />
+    <Content Include="Blue\JS\UserInfoEdit.js" />
+    <Content Include="Blue\JS\UserInfoManage.js" />
+    <Content Include="Blue\JS\UserInfo_RoleAdd.js" />
+    <Content Include="Blue\JS\UserInfo_RoleEdit.js" />
+    <Content Include="Blue\JS\UserInfo_RoleManage.js" />
+    <Content Include="Blue\layui\css\layui.css" />
+    <Content Include="Blue\layui\css\layui.mobile.css" />
+    <Content Include="Blue\layui\css\modules\code.css" />
+    <Content Include="Blue\layui\css\modules\laydate\default\laydate.css" />
+    <Content Include="Blue\layui\css\modules\layer\default\icon-ext.png" />
+    <Content Include="Blue\layui\css\modules\layer\default\icon.png" />
+    <Content Include="Blue\layui\css\modules\layer\default\layer.css" />
+    <Content Include="Blue\layui\css\modules\layer\default\loading-0.gif" />
+    <Content Include="Blue\layui\css\modules\layer\default\loading-1.gif" />
+    <Content Include="Blue\layui\css\modules\layer\default\loading-2.gif" />
+    <Content Include="Blue\layui\font\iconfont.svg" />
+    <Content Include="Blue\layui\images\face\0.gif" />
+    <Content Include="Blue\layui\images\face\1.gif" />
+    <Content Include="Blue\layui\images\face\10.gif" />
+    <Content Include="Blue\layui\images\face\11.gif" />
+    <Content Include="Blue\layui\images\face\12.gif" />
+    <Content Include="Blue\layui\images\face\13.gif" />
+    <Content Include="Blue\layui\images\face\14.gif" />
+    <Content Include="Blue\layui\images\face\15.gif" />
+    <Content Include="Blue\layui\images\face\16.gif" />
+    <Content Include="Blue\layui\images\face\17.gif" />
+    <Content Include="Blue\layui\images\face\18.gif" />
+    <Content Include="Blue\layui\images\face\19.gif" />
+    <Content Include="Blue\layui\images\face\2.gif" />
+    <Content Include="Blue\layui\images\face\20.gif" />
+    <Content Include="Blue\layui\images\face\21.gif" />
+    <Content Include="Blue\layui\images\face\22.gif" />
+    <Content Include="Blue\layui\images\face\23.gif" />
+    <Content Include="Blue\layui\images\face\24.gif" />
+    <Content Include="Blue\layui\images\face\25.gif" />
+    <Content Include="Blue\layui\images\face\26.gif" />
+    <Content Include="Blue\layui\images\face\27.gif" />
+    <Content Include="Blue\layui\images\face\28.gif" />
+    <Content Include="Blue\layui\images\face\29.gif" />
+    <Content Include="Blue\layui\images\face\3.gif" />
+    <Content Include="Blue\layui\images\face\30.gif" />
+    <Content Include="Blue\layui\images\face\31.gif" />
+    <Content Include="Blue\layui\images\face\32.gif" />
+    <Content Include="Blue\layui\images\face\33.gif" />
+    <Content Include="Blue\layui\images\face\34.gif" />
+    <Content Include="Blue\layui\images\face\35.gif" />
+    <Content Include="Blue\layui\images\face\36.gif" />
+    <Content Include="Blue\layui\images\face\37.gif" />
+    <Content Include="Blue\layui\images\face\38.gif" />
+    <Content Include="Blue\layui\images\face\39.gif" />
+    <Content Include="Blue\layui\images\face\4.gif" />
+    <Content Include="Blue\layui\images\face\40.gif" />
+    <Content Include="Blue\layui\images\face\41.gif" />
+    <Content Include="Blue\layui\images\face\42.gif" />
+    <Content Include="Blue\layui\images\face\43.gif" />
+    <Content Include="Blue\layui\images\face\44.gif" />
+    <Content Include="Blue\layui\images\face\45.gif" />
+    <Content Include="Blue\layui\images\face\46.gif" />
+    <Content Include="Blue\layui\images\face\47.gif" />
+    <Content Include="Blue\layui\images\face\48.gif" />
+    <Content Include="Blue\layui\images\face\49.gif" />
+    <Content Include="Blue\layui\images\face\5.gif" />
+    <Content Include="Blue\layui\images\face\50.gif" />
+    <Content Include="Blue\layui\images\face\51.gif" />
+    <Content Include="Blue\layui\images\face\52.gif" />
+    <Content Include="Blue\layui\images\face\53.gif" />
+    <Content Include="Blue\layui\images\face\54.gif" />
+    <Content Include="Blue\layui\images\face\55.gif" />
+    <Content Include="Blue\layui\images\face\56.gif" />
+    <Content Include="Blue\layui\images\face\57.gif" />
+    <Content Include="Blue\layui\images\face\58.gif" />
+    <Content Include="Blue\layui\images\face\59.gif" />
+    <Content Include="Blue\layui\images\face\6.gif" />
+    <Content Include="Blue\layui\images\face\60.gif" />
+    <Content Include="Blue\layui\images\face\61.gif" />
+    <Content Include="Blue\layui\images\face\62.gif" />
+    <Content Include="Blue\layui\images\face\63.gif" />
+    <Content Include="Blue\layui\images\face\64.gif" />
+    <Content Include="Blue\layui\images\face\65.gif" />
+    <Content Include="Blue\layui\images\face\66.gif" />
+    <Content Include="Blue\layui\images\face\67.gif" />
+    <Content Include="Blue\layui\images\face\68.gif" />
+    <Content Include="Blue\layui\images\face\69.gif" />
+    <Content Include="Blue\layui\images\face\7.gif" />
+    <Content Include="Blue\layui\images\face\70.gif" />
+    <Content Include="Blue\layui\images\face\71.gif" />
+    <Content Include="Blue\layui\images\face\8.gif" />
+    <Content Include="Blue\layui\images\face\9.gif" />
+    <Content Include="Blue\layui\layui.all.js" />
+    <Content Include="Blue\layui\layui.js" />
+    <Content Include="Blue\layui\lay\modules\carousel.js" />
+    <Content Include="Blue\layui\lay\modules\code.js" />
+    <Content Include="Blue\layui\lay\modules\colorpicker.js" />
+    <Content Include="Blue\layui\lay\modules\element.js" />
+    <Content Include="Blue\layui\lay\modules\flow.js" />
+    <Content Include="Blue\layui\lay\modules\form.js" />
+    <Content Include="Blue\layui\lay\modules\jquery.js" />
+    <Content Include="Blue\layui\lay\modules\laydate.js" />
+    <Content Include="Blue\layui\lay\modules\layedit.js" />
+    <Content Include="Blue\layui\lay\modules\layer.js" />
+    <Content Include="Blue\layui\lay\modules\laypage.js" />
+    <Content Include="Blue\layui\lay\modules\laytpl.js" />
+    <Content Include="Blue\layui\lay\modules\mobile.js" />
+    <Content Include="Blue\layui\lay\modules\rate.js" />
+    <Content Include="Blue\layui\lay\modules\slider.js" />
+    <Content Include="Blue\layui\lay\modules\table.js" />
+    <Content Include="Blue\layui\lay\modules\tree.js" />
+    <Content Include="Blue\layui\lay\modules\upload.js" />
+    <Content Include="Blue\layui\lay\modules\util.js" />
+    <Content Include="View\Login.html" />
+    <Content Include="View\Main.html" />
+    <Content Include="View\NavigateManage.html" />
+    <Content Include="View\RoleManage.html" />
+    <Content Include="View\RoleNavigateAdd.html" />
+    <Content Include="View\RoleNavigateEdit.html" />
+    <Content Include="View\RoleNavigateManage.html" />
+    <Content Include="View\Template.html" />
+    <Content Include="View\UserInfoAdd.html" />
+    <Content Include="View\UserInfoEdit.html" />
+    <Content Include="View\UserInfoManage.html" />
+    <Content Include="View\UserInfo_RoleAdd.html" />
+    <Content Include="View\UserInfo_RoleEdit.html" />
+    <Content Include="View\UserInfo_RoleManage.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Control\defaultController.cs" />
+    <Compile Include="Control\NavigateController.cs" />
+    <Compile Include="Control\RoleController.cs" />
+    <Compile Include="Control\RoleNavigateController.cs" />
+    <Compile Include="Control\UserInfo_RoleController.cs" />
+    <Compile Include="DAL\NavigateEX.cs" />
+    <Compile Include="DAL\RoleEX.cs" />
+    <Compile Include="DAL\RoleNavigateEX.cs" />
+    <Compile Include="DAL\UserInfo_RoleEX.cs" />
+    <Compile Include="Model\Navigate.cs" />
+    <Compile Include="Model\Role.cs" />
+    <Compile Include="Plugin\CacheHelper.cs" />
+    <Compile Include="Control\BaseController.cs" />
+    <Compile Include="Control\IController.cs" />
+    <Compile Include="Control\UserInfoController.cs" />
+    <Compile Include="DAL\SqlHelper.cs" />
+    <Compile Include="DAL\SugarDao.cs" />
+    <Compile Include="DAL\UserInfoEX.cs" />
+    <Compile Include="index.ashx.cs">
+      <DependentUpon>index.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\UserInfo.cs" />
+    <Compile Include="Plugin\Json.cs" />
+    <Compile Include="Plugin\MapPath.cs" />
+    <Compile Include="Plugin\VelocityHelper.cs" />
+    <Compile Include="Plugin\Workflow.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.ashx" />
+    <Content Include="ClassDiagram1.cd" />
+    <Content Include="Blue\layui\font\iconfont.eot" />
+    <Content Include="Blue\layui\font\iconfont.ttf" />
+    <Content Include="Blue\layui\font\iconfont.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\chromedownload\SqlSugar-dev\SqlSugar-dev\Src\Asp.Net\SqlSugar\SqlSugar.csproj">
+      <Project>{489bb790-226c-4fad-8d1e-51d72a7ff8e5}</Project>
+      <Name>SqlSugar</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:27648/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="../Blue/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="../Blue/layui/css/layui.css" rel="stylesheet" />
+    <link href="../Blue/CSS/common.css" rel="stylesheet" />
+    <link href="../Blue/CSS/init.css" rel="stylesheet" />
+    <script src="../Blue/layui/layui.js"></script>
+    <script src="../Blue/JS/RoleNavigateAdd.js"></script>
+    <link href="../Blue/CSS/navigate.css" rel="stylesheet" />
+</head>
+<body>
+    <form class="layui-form common-form">
+        <div class="layui-form-item">
+            <label class="layui-form-label">角色</label>
+            <div class="layui-input-block">
+              <select name="roleName" lay-verify="required" lay-search>
+
+              </select>
+            </div>
+          </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">导航</label>
+            <div class="layui-input-block" id="navigateOptions">
+                
+            </div>
+        </div>
+        <div class="layui-form-item  userInfoAdd-sure-margin">
+            <div class="layui-input-block commom-btnCenter-two">
+                <button class="layui-btn" lay-submit lay-filter="formDemo" id="sureAdd">确定</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

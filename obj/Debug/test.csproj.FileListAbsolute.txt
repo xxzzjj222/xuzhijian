@@ -1,0 +1,11 @@
+F:\xzj\vs\test1\test\bin\test.dll
+F:\xzj\vs\test1\test\bin\test.pdb
+F:\xzj\vs\test1\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+F:\xzj\vs\test1\test\obj\Debug\test.dll
+F:\xzj\vs\test1\test\obj\Debug\test.pdb
+F:\xzj\vs\test1\test\bin\BLL.dll
+F:\xzj\vs\test1\test\bin\DAL.dll
+F:\xzj\vs\test1\test\bin\Model.dll
+F:\xzj\vs\test1\test\bin\BLL.pdb
+F:\xzj\vs\test1\test\bin\DAL.pdb
+F:\xzj\vs\test1\test\bin\Model.pdb

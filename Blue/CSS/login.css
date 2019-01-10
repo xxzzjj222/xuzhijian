@@ -1,0 +1,26 @@
+﻿.html
+{
+    height:100%;
+    overflow:hidden;
+}
+.body
+{
+    width:100%;
+    height:100%;
+    background:linear-gradient(to top right, #CDDC39 0%, #8BC34A 25%, #FFEB3B 100%);
+    background-image:url(../Images/loginbg.jpg);
+    background-size: 100%;
+}
+.main
+{
+    width:400px;
+    margin:20% auto;
+}
+.form
+{
+    margin:10px;
+}
+.btn-login-register-color
+{
+    background-color:pink;
+}

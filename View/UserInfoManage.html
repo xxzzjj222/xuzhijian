@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="../Blue/layui/css/layui.css" rel="stylesheet" media="all" />
+    <link href="../Blue/CSS/common.css" rel="stylesheet" />
+    <link href="../Blue/CSS/init.css" rel="stylesheet" />
+    <script src="../Blue/layui/layui.js"></script>
+    <script src="../Blue/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div>
+        <div class="layui-btn-group" id="toolbar">
+            <button class="layui-btn" id="addUserInfo">增加</button>
+            <button class="layui-btn" id="deleteUserInfo">删除</button>
+        </div>
+
+        <div class="layui-btn-group common-hide" id="toolbar-tr">
+            <button class="layui-btn common-tr-btn-height" lay-event="edit">编辑</button>
+            <button class="layui-btn common-tr-btn-height" lay-event="delete">删除</button>
+        </div>
+        <table id="userInfoTable" lay-filter="userInfo"></table>
+    </div>
+    <script src="../Blue/JS/UserInfoManage.js"></script>
+</body>
+</html>

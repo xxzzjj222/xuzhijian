@@ -1,0 +1,45 @@
+﻿.iframe
+{
+    width:calc(100% - 200px);
+    margin-left:200px;
+    height:calc(100% - 100px);
+    border:none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.ul-top
+{
+    top:100px;
+}
+
+.layui-nav-tree .layui-nav-item a:hover
+{
+    cursor:pointer;
+    background-color: #009688;
+}
+.html-body-height
+{
+    height:100%;
+}
+.body-top-ul
+{
+    text-align: right;
+    position:absolute;
+    right:0px;
+    top:0px;
+    background-color:transparent;
+}
+.body-top-ul > span
+{
+    display:none;
+}
+.body-select-role
+{
+    background-color: inherit;
+    color:#fff;
+}
+.body-select-role > option
+{
+   background-color:#c9dbfa;
+}
