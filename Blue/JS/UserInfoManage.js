@@ -5,12 +5,30 @@ function workflowClick(role, state, workflowAction, entityID) {
         contentIframe.src = "UserInfoManage.html";//设置iframeURL
     })
 }
-layui.use(['table', 'layer'], function () {
+layui.use(['table', 'layer','upload'], function () {
     var table = layui.table,
+        upload = layui.upload,
         layer = layui.layer;
+
+    var uploadInst = upload.render({
+        elem: '#upload' //绑定元素
+        , url: '../../index.ashx?action=UploadImage' //上传接口
+        , done: function (res) {
+            //上传完毕回调
+            if (res.code == 0) {
+                layer.msg(res.message);
+            }
+            else if (res.code = 1)
+                layer.msg(res.message);
+        }
+        , error: function () {
+            //请求异常回调
+        },
+        acceptMime:'image/'
+    });
     var select = $("select[name='userName']", parent.document).children('option:selected').val();
     var selectName = $("select[name='userName']", parent.document).children('option:selected').text();
-    
+
     table.render(
         {//--------渲染表格
             elem: "#userInfoTable",
@@ -18,7 +36,7 @@ layui.use(['table', 'layer'], function () {
             page: true,//分页
             limit: 10,//每页条数
             limits: [5, 10, 20],
-            parseData: function (result) { //result 即为原始返回的数据hehe
+            parseData: function (result) { //result 即为原始返回的数据
                 if (result.url != null) {
                     window.location.href = result.url;//未登录跳转至登录页
                 }
@@ -44,6 +62,7 @@ layui.use(['table', 'layer'], function () {
             ]],
             id: 'id',//设置table的id
         });
+    
     $("#addUserInfo").click(function () {//-------新增按钮
         layer.open({//弹框一个iframe框用于新增
             type: 2,
